@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '1d9#tm!d7gs^96-y8hcakqk^ceptly
 #DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['werugha-locallibrary-dev.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

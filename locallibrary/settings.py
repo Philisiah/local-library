@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = '1d9#tm!d7gs^96-y8hcakqk^ceptlyf7d42=n#z55rxuh(h470'
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '1d9#tm!d7gs^96-y8hcakqk^ceptlyf7d42=n#z55rxuh(h470')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '1d9#tm!d7gs^96-y8hcakqk^cep  fjskjfslkjlkjglkdtlyf7d42=n#z55rxuh(h470')
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
@@ -141,4 +141,4 @@ STATIC_URL = '/static/'
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

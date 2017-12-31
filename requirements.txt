@@ -1,5 +1,4 @@
 Django==2.0
-pkg-resources==0.0.0
 pytz==2017.3
 dj-database-url==0.4.1
 gunicorn==19.6.0
